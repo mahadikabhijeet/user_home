@@ -10,3 +10,6 @@ cd user_home
 ./install.sh
 ```
 **Important:. If you want to perform above things on a root user then assuming you are logged in as a root user instead of** `cd /home/` **go to** `cd /` **and instead of** `./install.sh` **do** `./installroot.sh`
+Put Your aliases in .bashrc file and put your custom commands in ~/.local/bin and give them execute i.e. `chmod +x _command_`
+Remove install.sh and installroot.sh from your home folder if you want after the job is done.
+
